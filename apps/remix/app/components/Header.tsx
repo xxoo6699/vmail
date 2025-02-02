@@ -12,16 +12,6 @@ export default function Header() {
           <span>MAIL.NONULL</span>
         </button>
       </Link>
-      <Link
-        to="/privacy"
-        className="ml-3 md:ml-8 text-sm md:text-base hidden md:block">
-        {t("Privacy")}
-      </Link>
-      <Link
-        to="/terms"
-        className="ml-3 md:ml-8 text-sm md:text-base hidden md:block">
-        {t("Terms")}
-      </Link>
     </div>
   );
 }
